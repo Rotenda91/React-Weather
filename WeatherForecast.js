@@ -18,7 +18,7 @@ const WeatherForecast = (props) => {
   }
 
   function load() {
-    let apiKey = "d9fbo5b5d249ea3302dd0t9b088ab5f6";
+    let apiKey = "f3009e4852fa0a079dab291dabf020c4";
     let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${props.weatherData.city}&key=${apiKey}&units=metric`;
 
     axios.get(apiUrl).then(handleForecastResponse);
