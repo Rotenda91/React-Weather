@@ -1,0 +1,21 @@
+.WeatherForecast {
+  text-align: center;
+}
+.WeatherForecastTemperature-min {
+  opacity: 0.6;
+  font-size: 0.75rem;
+}
+.container-day {
+  padding: 80px;
+  margin: 30px 5px;
+  border-radius: 10px;
+  border: solid 1px #ff7e67;
+}
+.iconForecast canvas {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+.WeatherForecastDay {
+  font-size: 0.75rem;
+}
